@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="./lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <title>Smart X</title>
+</head>
+
+<body style="background-color: #f1f1f2">
+  <!-- NavBar -->
+  <nav id="navmenu" class="navbar navbar-expand-lg sticky-top"
+    style="background-color: #ffffff; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <a class="navbar-brand" href="#home">
+      <div class="logo-container">
+        <span class="logo-text" style="font-weight: 600;">Smart<span class="logo-highlight"
+            style="color: #0056b3;">X</span></span>
+      </div>
+    </a>
+    <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation" style="border: none; padding: 0.5rem;">
+      <span id="nav-toggle-icon" class="fas fa-bars" style="color: #0056b3; font-size: 1.5rem;"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="navmenu-links" class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">
+            <i class="fas fa-home mr-1"></i> Home
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-project-diagram mr-1"></i> Project Scope
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+            style="border-radius: 8px; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <a class="dropdown-item" href="#project-scope">
+              <i class="fas fa-book-reader mr-2"></i> Literature Survey
+            </a>
+            <a class="dropdown-item" href="#research_gap">
+              <i class="fas fa-shield-alt mr-2"></i> Security Challenges
+            </a>
+            <a class="dropdown-item" href="#research_problem">
+              <i class="fas fa-search mr-2"></i> Research Problem & Solution
+            </a>
+            <a class="dropdown-item" href="#research_objectives">
+              <i class="fas fa-bullseye mr-2"></i> Research Objectives
+            </a>
+            <a class="dropdown-item" href="#methodology">
+              <i class="fas fa-cogs mr-2"></i> Methodology
+            </a>
+            <a class="dropdown-item" href="#tech_used">
+              <i class="fas fa-laptop-code mr-2"></i> Technologies
+            </a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#milestones">
+            <i class="fas fa-flag-checkered mr-1"></i> Milestones
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-download mr-1"></i> Downloads
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+            style="border-radius: 8px; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <a class="dropdown-item" href="#downloads">
+              <i class="fas fa-file-pdf mr-2"></i> Documents
+            </a>
+            <a class="dropdown-item" href="#presentations">
+              <i class="fas fa-file-powerpoint mr-2"></i> Presentations
+            </a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">
+            <i class="fas fa-users mr-1"></i> About Us
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">
+            <i class="fas fa-envelope mr-1"></i> Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Home -->
+  <section id="home">
+    <div class="video-background">
+      <video autoplay muted loop id="myVideo" playsinline>
+        <source src="./videos/cyber-security.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+    </div>
+    <div class="container">
+      <div class="hero-cta">
+        <h1>Online Transaction Fraud Detection<br />Privacy-Preserving Tool for the Banking Industry</h1>
+        <p class="hero-subtitle">Protecting Financial Institutions with Advanced AI and Privacy-First Design</p>
+        <a class="btn btn-outline-light btn-lg" type="button" href="#project-scope">
+          <span class="btn-text">Learn More</span>
+          <span class="fas fa-chevron-right btn-icon"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Project Scope -->
+  <section id="project-scope" class="main-sections">
+    <div class="container">
+      <h5 class="section-headings">Project Scope</h5>
+      <!-- Literature Survey -->
+      <div id="literature" class="sub-section">
+        <h2><i class="fas fa-book-reader mr-2" style="color: #0056b3;"></i>Literature Survey</h2>
+
+        <!-- Introduction Row -->
+        <div class="row mb-3">
+          <div class="col-12 justify-text">
+            <p class="lead mb-3">
+              With the rapid digitalization of financial services, online transaction fraud has become a growing concern
+              for banking institutions. Traditional systems, while providing basic protection, often fall short in
+              crucial areas such as data privacy, real-time detection, and resilience against coordinated attacks.
+            </p>
+          </div>
+        </div>
+
+        <!-- Main Content Row -->
+        <div class="row">
+          <!-- Left Column -->
+          <div class="col-md-4 col-sm-12">
+            <div class="section-left">
+              <div class="section-info-div mb-4">
+                <h4 class="mb-2"><i class="fas fa-chart-bar mr-2"></i>Key Insights</h4>
+                <p>
+                  <strong>Studies show that hybrid systems combining ML with behavioral rules reduce false positives by
+                    up to 45% while maintaining 97% detection accuracy.</strong>
+                </p>
+              </div>
+              <div class="section-figure">
+                <h5 class="mb-2">Comparison of Approaches (2023)</h5>
+                <table class="table table-bordered table-sm mb-2" style="background:white;">
+                  <thead>
+                    <tr>
+                      <th>Approach</th>
+                      <th>Accuracy</th>
+                      <th>Privacy</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Traditional ML</td>
+                      <td>92%</td>
+                      <td>Low</td>
+                    </tr>
+                    <tr>
+                      <td>HE-based ML</td>
+                      <td>89%</td>
+                      <td>High</td>
+                    </tr>
+                    <tr>
+                      <td>Hybrid Rules</td>
+                      <td>94%</td>
+                      <td>Medium</td>
+                    </tr>
+                    <tr>
+                      <td>Our Approach</td>
+                      <td>97%</td>
+                      <td>High</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p style="font-size:12px;" class="mb-0">Figure 1. Comparative analysis of fraud detection approaches.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Middle Column -->
+          <div class="col-md-4 col-sm-12">
+            <div class="section-middle">
+              <h5 class="mb-2"><i class="fas fa-robot mr-2"></i>1. Fraud Detection Systems</h5>
+              <p class="justify-text mb-3">
+                Conventional fraud detection approaches rely heavily on machine learning models trained on historical
+                transaction data. While these systems demonstrate effectiveness in pattern recognition, they face
+                significant challenges in modern banking environments.
+              </p>
+
+              <h5 class="mb-2"><i class="fas fa-lock mr-2"></i>2. Privacy-Preserving Computation</h5>
+              <p class="justify-text mb-3">
+                Recent advancements in Homomorphic Encryption (HE) have revolutionized secure computation in fraud
+                detection. Gentry's breakthrough in Fully Homomorphic Encryption (FHE) established the theoretical
+                foundation for performing computations on encrypted data.
+              </p>
+
+              <h5 class="mb-2"><i class="fas fa-brain mr-2"></i>3. Advanced Detection</h5>
+              <p class="justify-text mb-3">
+                Modern fraud detection systems have evolved to incorporate multiple layers of sophisticated analysis.
+                Behavioral analysis has emerged as a crucial component, examining patterns in geographic locations and
+                transaction frequencies.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-4 col-sm-12">
+            <div class="section-right">
+              <h5 class="mb-2"><i class="fas fa-shield-alt mr-2"></i>4. System Security & Response</h5>
+              <p class="justify-text mb-3">
+                Comprehensive security measures have become essential in modern fraud detection systems. The
+                implementation of DoS protection through ML-based traffic analysis provides crucial defense against
+                system-level attacks.
+              </p>
+
+              <h5 class="mb-2"><i class="fas fa-chart-line mr-2"></i>5. Implementation & Monitoring</h5>
+              <p class="justify-text mb-3">
+                Modern implementations have focused heavily on operational efficiency through advanced monitoring and
+                management systems. Centralized dashboard interfaces provide comprehensive visibility into system
+                operations.
+              </p>
+
+              <div class="references-section">
+                <h5 class="mb-2"><i class="fas fa-book mr-2"></i>References</h5>
+                <ol style="font-size:12px;" class="mb-0">
+                  <li>D. Stanciu, "Fraud Detection in Electronic Payments," JISOP 2022.</li>
+                  <li>I. Hasan et al., "AI-Driven Fraud Detection," LNNS 2022.</li>
+                  <li>J. Atetedaye, "Privacy-Preserving Machine Learning," 2024.</li>
+                  <li>M. M. Rahman, "ATM Card Fraud Detection," JIS 2019.</li>
+                  <li>C. Gentry, "Fully Homomorphic Encryption," STOC 2009.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Research Gap -->
+      <div id="research_gap" class="sub-section">
+        <h2>Security Challenges</h2>
+        <p>Following areas are the key security challenges in online banking transactions.</p>
+        <div class="row mt-5 research-gap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="fa-container text-center">
+                  <i class="fas fa-shield-alt fa-3x " aria-hidden="true" style="color: #0056b3; "></i>
+                </div>
+                <div class="text-center" style="padding-top: 20px;">
+                  <h5>Privacy Protection</h5>
+                </div>
+                <div>
+                  <p style="text-align: justify;">Maintaining customer privacy while implementing robust fraud detection
+                    systems remains a significant challenge. Traditional systems often require access to sensitive
+                    transaction data, raising privacy concerns.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="fa-container text-center">
+                  <i class="fas fa-bolt fa-3x " aria-hidden="true" style="color: #0056b3;"></i>
+                </div>
+                <div class="text-center" style="padding-top: 20px;">
+                  <h5>Real-time Detection</h5>
+                </div>
+                <div>
+                  <p style="text-align: justify;">Detecting fraudulent transactions in real-time without causing delays
+                    in legitimate transactions is crucial. Current systems often struggle to balance speed with
+                    accuracy.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="fa-container text-center">
+                  <i class="fas fa-robot fa-3x " aria-hidden="true" style="color: #0056b3;"></i>
+                </div>
+                <div class="text-center" style="padding-top: 20px;">
+                  <h5>Adaptive Fraud Patterns</h5>
+                </div>
+                <div>
+                  <p style="text-align: justify;">Fraudsters constantly evolve their techniques, making it challenging
+                    for traditional rule-based systems to keep up. Advanced AI solutions are needed to adapt to new
+                    fraud patterns in real-time.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Research Problem -->
+      <div id="research_problem" class="sub-section">
+        <h2>Research Problem & Solution</h2>
+        <div class="row">
+          <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+            <h5><strong>Problem Statement</strong></h5>
+            <h4 class="highlight" style="color: #0056b3; font-size: 24px; margin: 20px 0;">How can real-time online
+              transaction fraud be accurately detected without compromising sensitive data, and how can banks be
+              simultaneously protected against coordinated threats like network attacks?</h4>
+            <p style="text-align: justify;">In the digital banking era, institutions face a dual challenge: ensuring
+              accurate real-time detection of fraudulent transactions while preserving the privacy of sensitive customer
+              data. Most existing fraud detection systems require access to unencrypted information, creating potential
+              exposure points that can lead to data breaches or regulatory non-compliance.</p>
+            <p style="text-align: justify;">Simultaneously, banks are increasingly targeted by coordinated cyber
+              threats, such as Denial-of-Service (DoS) attacks, that aim to overwhelm systems and mask fraudulent
+              activity. Despite this evolving threat landscape, current fraud detection tools often function in
+              isolation, lacking integration with broader network-level defense mechanisms.</p>
+          </div>
+
+          <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+            <div class="video-container"
+              style="border: 2px solid #ddd; border-radius: 8px; overflow: hidden; margin-top: 2.5rem;">
+              <video width="100%" height="315" controls style="display: block;">
+                <source src="./videos/Research Project Demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p class="text-center mt-3" style="color: #666;">SecureBank Shield - Solution Overview</p>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h5><strong>Proposed Solution</strong></h5>
+          <p style="text-align: justify;">Our project addresses these challenges by designing a comprehensive,
+            privacy-preserving detection framework that combines encrypted data analytics, intelligent fraud prediction,
+            automated response, and proactive network attack monitoring within a unified, scalable system.</p>
+
+          <p style="text-align: justify;">Key features include:</p>
+          <ul>
+            <li><strong>Privacy-First Architecture:</strong> Implements homomorphic encryption to analyze transactions
+              without exposing sensitive data</li>
+            <li><strong>Real-Time Detection:</strong> Uses advanced ML models to identify fraudulent patterns with
+              sub-second response times</li>
+            <li><strong>Integrated Defense:</strong> Combines transaction monitoring with network-level threat detection
+            </li>
+            <li><strong>Automated Response:</strong> Deploys instant countermeasures against detected threats</li>
+            <li><strong>Regulatory Compliance:</strong> Ensures adherence to data protection standards while maintaining
+              detection accuracy</li>
+            <li><strong>Scalable Infrastructure:</strong> Built on cloud-native technologies for high availability and
+              performance</li>
+          </ul>
+
+          <p style="text-align: justify;">The system achieves over 95% fraud detection accuracy while maintaining
+            complete data privacy through encryption. Real-time monitoring and automated responses reduce the
+            mean-time-to-detect (MTTD) by 60% compared to traditional systems. The solution has been validated through
+            extensive testing with synthetic transaction data and simulated attack scenarios.</p>
+        </div>
+      </div>
+      <!-- Research Objectives -->
+      <div id="research_objectives" class="sub-section">
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+          <!-- Objective 1: Left -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold" style="background: #00b86b; font-size: 2rem;">🔐</div>
+            </div>
+            <div class="col-10">
+              <h4 style="color: #00b86b;">Privacy-Preserving Transaction Data Processing</h4>
+              <p style="text-align: justify;">The first objective is to develop a secure communication pipeline that
+                leverages Homomorphic Encryption (HE) to process sensitive banking transaction data. Instead of
+                encrypting all fields unnecessarily, the system selectively encrypts critical attributes like
+                transaction amount, location, and card details—allowing encrypted data to be analyzed without
+                decryption. This preserves user privacy while ensuring real-time compatibility with fraud detection
+                workflows. The objective is to enhance privacy without compromising performance, aligning with
+                regulations like GDPR and PCI DSS.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr style="border-color: #00b86b;" />
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Objective 2: Right -->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-10 text-right">
+              <h4 style="color: #00b86b;">Behavioral Fraud Detection Using ML Algorithms</h4>
+              <p style="text-align: justify;">The second objective is to design a fraud detection engine based on hybrid
+                machine learning models that combine supervised and unsupervised algorithms with rule-based systems.
+                This function is responsible for identifying anomalies in transaction behavior that suggest fraud,
+                reducing false positives, and adapting to evolving patterns. By integrating temporal and behavioral
+                data—such as transaction time, merchant category, and user age—the model ensures higher precision in
+                distinguishing legitimate transactions from fraudulent ones.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold" style="background: #00b86b; font-size: 2rem;">🧠</div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr style="border-color: #00b86b;" />
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Objective 3: Left -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold" style="background: #00b86b; font-size: 2rem;">🛡️</div>
+            </div>
+            <div class="col-10">
+              <h4 style="color: #00b86b;">Automated Incident Analysis and Response (AIAR)</h4>
+              <p style="text-align: justify;">The third objective is to implement an automated incident response system
+                that detects high-risk fraud activities and takes corrective actions in real time. The system uses AI to
+                assess the severity of incidents, generate contextual threat profiles, and suggest or execute predefined
+                remediation steps (e.g., alerting users, blocking transactions). This automation helps reduce human
+                error, accelerates response times, and improves overall cybersecurity posture.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr style="border-color: #00b86b;" />
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Objective 4: Right -->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-10 text-right">
+              <h4 style="color: #00b86b;">Network Attack Detection</h4>
+              <p style="text-align: justify;">The fourth objective is to build a honeypot-based detection system to
+                capture and analyze malicious network traffic targeting the fraud detection infrastructure. Machine
+                learning algorithms are applied to honeypot data to identify Denial-of-Service (DoS) attacks. The system
+                ensures resilience by detecting and mitigating threats that could compromise the fraud detection
+                pipeline, ensuring it remains functional and trustworthy during cyberattacks.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold" style="background: #00b86b; font-size: 2rem;">🌐</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Methodology -->
+      <div id="methodology" class="sub-section">
+        <h2>Methodology</h2>
+        <div class="row">
+          <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+            <div class="section-left">
+              <div class="section-figure">
+                <img src="./Images/other/High Level Diagram .png" width="100%" />
+                <p>Figure 2. High Level Architecture of the system.</p>
+              </div>
+            </div>
+          </div>
+          <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+            <p>The proposed fraud detection and privacy-preserving system consists of 7 main components. They are;</p>
+            <ol>
+              <li><strong>Dataset and Preprocessing Module</strong>
+                - Handles synthetic credit card transaction data preparation</li>
+              <li><strong>Feature Engineering Pipeline</strong>
+                - Extracts behavioral, temporal and spatial features</li>
+              <li><strong>Machine Learning Detection Engine</strong>
+                - Implements ensemble Voting Classifier (LightGBM + CatBoost)</li>
+              <li><strong>Privacy-Preserving Layer</strong>
+                - Integrates homomorphic encryption for sensitive data</li>
+              <li><strong>Rule-Based Anomaly Detection</strong>
+                - Implements distance and frequency-based checks</li>
+              <li><strong>Network Security Module</strong>
+                - Deploys honeypot for attack detection</li>
+              <li><strong>Data Management & Analytics</strong>
+                - Handles storage, logging and visualization</li>
+            </ol>
+            <p>Fig 2 illustrates the overall system architecture of the proposed solution which provides a secure
+              approach for financial institutions to detect fraudulent transactions while preserving customer privacy.
+              As shown in the diagram, the system processes incoming transactions through multiple layers:</p>
+            <p>The transaction data first goes through the preprocessing and feature engineering pipeline. These
+              features are then encrypted using homomorphic encryption before being passed to the ML models. The models
+              analyze the encrypted data to detect potential fraud while anomaly detection rules run in parallel.
+              Network traffic is simultaneously monitored for attacks.</p>
+            <p>All results are stored in MongoDB Atlas with proper encryption. The system provides real-time monitoring
+              through Elasticsearch and Kibana dashboards while maintaining complete audit logs. This multi-layered
+              approach ensures both security and transparency in fraud detection.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Technologies Used -->
+      <div id="tech_used" class="sub-section">
+        <h2>Technologies Used</h2>
+        <p class="mb-4">To implement a secure, intelligent, and real-time fraud detection platform, our system leverages
+          a combination of cutting-edge technologies in backend development, machine learning, encryption, and
+          monitoring.</p>
+
+        <div class="tech-category mb-5">
+          <h3><i class="fas fa-laptop-code mr-2"></i>Backend & Machine Learning</h3>
+          <div class="row technology mt-4">
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/python.png" alt="Python">
+              </div>
+              <p>Python</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/flask.png" alt="Flask">
+              </div>
+              <p>Flask</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/Node.js_logo.png" alt="Node Js">
+              </div>
+              <p>Node Js</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/scikitlearn.png" alt="Scikit-learn">
+              </div>
+              <p>Scikit-learn</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/lightgbm.png" alt="LightGBM">
+              </div>
+              <p>LightGBM</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/catboost_logo.png" alt="CatBoost">
+              </div>
+              <p>CatBoost</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category mb-5">
+          <h3><i class="fas fa-laptop-code mr-2"></i>Frontend Framework</h3>
+          <div class="row technology mt-4">
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/react.png" alt="React">
+              </div>
+              <p>React</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/tailwind-css-logo.png" alt="Tailwind">
+              </div>
+              <p>Tailwind CSS</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/bootstrap-logo.png" alt="Bootstrap">
+              </div>
+              <p>Bootstrap</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category mb-5">
+          <h3><i class="fas fa-shield-alt mr-2"></i>Encryption & Privacy</h3>
+          <div class="row technology mt-4">
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/tenseal.png" alt="TenSEAL">
+              </div>
+              <p>TenSEAL</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/Transform.png" alt="Transformer">
+              </div>
+              <p>Transformer-based Encryptor</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category mb-5">
+          <h3><i class="fas fa-database mr-2"></i>Data Storage & Search</h3>
+          <div class="row technology mt-4">
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/mongo.jpg" alt="MongoDB">
+              </div>
+              <p>MongoDB Atlas</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/elasticsearch.png" alt="Elasticsearch">
+              </div>
+              <p>Elasticsearch</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category mb-5">
+          <h3><i class="fas fa-chart-line mr-2"></i>Monitoring & Testing</h3>
+          <div class="row technology mt-4">
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/kibana.png" alt="Kibana">
+              </div>
+              <p>Kibana</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="./Images/tech/postman.png" alt="Postman">
+              </div>
+              <p>Postman</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3><i class="fas fa-rocket mr-2"></i>Deployment & Integration</h3>
+          <div class="deployment-features mt-4">
+            <ul>
+              <li><strong>Modular API Endpoints:</strong> Scalable architecture that allows individual modules (fraud,
+                DoS, encryption) to run independently or as part of the full system.</li>
+              <li><strong>Encrypted Logging:</strong> Sensitive logs are stored in encrypted form while supporting
+                real-time query and analysis features.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Milestones -->
+  <section id="milestones" class="main-sections">
+    <div class="container">
+      <h5 class="section-headings">Milestones</h5>
+      <div class="sub-section">
+        <h2>Timeline in Brief</h2>
+        <div class="milestones">
+          <ul class="timeline">
+            <!-- Project Proposal -->
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">August 2024</p>
+                <h3>Project Proposal</h3>
+                <p>A Project Proposal is presented to potential sponsors or clients to receive funding or get your
+                  project approved.</p>
+                <p><strong>Marks Allocated : </strong>6</p>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="12"
+                    aria-valuemin="0" aria-valuemax="100">6%</div>
+                </div>
+              </div>
+            </li>
+            <!-- Progress Presentation I -->
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">December 2024</p>
+                <h3>Progress Presentation I</h3>
+                <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or
+                  inconsistencies in the design/requirements.</p>
+                <p><strong>Marks Allocated : </strong>6</p>
+                <div class="progress">
+                  <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 12%" aria-valuenow="13"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="15"
+                    aria-valuemin="0" aria-valuemax="100">6%</div>
+                </div>
+              </div>
+            </li>
+            <!-- Research Paper -->
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">March 2025</p>
+                <h3>Research Paper</h3>
+                <p>Describes what you contribute to existing knowledge, giving due recognition to all work that you
+                  referred in making new knowledge</p>
+                <p><strong>Marks Allocated : </strong>10</p>
+                <div class="progress">
+                  <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 27%" aria-valuenow="27"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10"
+                    aria-valuemin="0" aria-valuemax="100">10%</div>
+                </div>
+              </div>
+            </li>
+            <!-- Progress Presentation II -->
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">September 2021</p>
+                <h3>Progress Presentation II</h3>
+                <p>Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with
+                  a Poster presesntation which describes the project as a whole.</p>
+                <p><strong>Marks Allocated : </strong>18</p>
+                <div class="progress">
+                  <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 18%" aria-valuenow="18"
+                    aria-valuemin="0" aria-valuemax="100">18%</div>
+                </div>
+              </div>
+            </li>
+            <!-- Website -->
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">May 2025</p>
+                <h3>Website Assessment</h3>
+                <p>The Website helps to promote our research project and reveals all details related to the project.</p>
+                <p><strong>Marks Allocated : </strong>2</p>
+                <div class="progress">
+                  <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 55%" aria-valuenow="55"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="2"
+                    aria-valuemin="0" aria-valuemax="100">2%</div>
+                </div>
+              </div>
+            </li>
+            <!-- Logbook -->
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">June 2025</p>
+                <h3>Logbook</h3>
+                <p>Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.
+                </p>
+                <p><strong>Marks Allocated : </strong>3</p>
+                <div class="progress">
+                  <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 57%" aria-valuenow="57"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 3%" aria-valuenow="4"
+                    aria-valuemin="0" aria-valuemax="100">3%</div>
+                </div>
+              </div>
+            </li>
+            <!-- Final Report -->
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">April 2025</p>
+                <h3>Final Report</h3>
+                <p>Final Report evalutes the completed project done throughout the year. Marks mentioned below includes
+                  marks for Individual & group reports and also Final report.</p>
+                <p><strong>Marks Allocated : </strong>19</p>
+                <div class="progress">
+                  <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 61%" aria-valuenow="61"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 19%" aria-valuenow="29"
+                    aria-valuemin="0" aria-valuemax="100">19%</div>
+                </div>
+              </div>
+            </li>
+            <!-- Viva -->
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">May 2025</p>
+                <h3>Final Presentation & Viva</h3>
+                <p>Viva is held individually to assess each members contribution to the project.</p>
+                <p><strong>Marks Allocated : </strong>20</p>
+                <div class="progress">
+                  <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 90%" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="10"
+                    aria-valuemin="0" aria-valuemax="100">10%</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Downloads -->
+  <section id="downloads" class="main-sections">
+    <div class="container">
+      <h5 class="section-headings">Downloads</h5>
+      <!-- Documents -->
+      <div class="sub-section">
+        <h2>Documents</h2>
+        <p>Please find all documents related to this project below.</p>
+        <div class="row mt-sm-5 downloads-container">
+          <!-- Topic Assessment -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                <p class="card-text pt-sm-2">Submitted on 2024/06/24</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1IfuGyR4yS4K1tVR7X3oZH8SXtZHu9xwB?usp=sharing "
+                    target="_blank">Download</a></li>
+                <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+              </ul>
+
+            </div>
+          </div>
+          <!-- Project Proposal -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                <p class="card-text pt-sm-2">Submitted on 2024/08/23</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Individual<a
+                    href="https://drive.google.com/drive/folders/1qJ8jWYHBjDk_DiBvfPCrTi7-6FG7-ZLq?usp=sharing "
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- SRS Document -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>SRS Document</h5>
+                <p class="card-text pt-sm-2">Submitted on 2024/12/08</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1BeH12kWVm1btzk5IyHULOUgNNOMPxieN?usp=sharing "
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Research -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1-Lm88tEyQjxim8i-9Twr0n6YH9t8wQJe?usp=sharing "
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Final Report -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                <p class="card-text pt-sm-2">Submitted on 2025/04/11</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1kAsTVLPWOw_Ec09STgQ5PR8-39oMiukx?usp=sharing "
+                    target="_blank">Download</a></li>
+                <li class="list-group-item">Individual<a
+                    href="https://drive.google.com/drive/folders/1k1XdmLxyX9S8rHFwNtw8oTkund6mDRDp?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Poster -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster</h5>
+                <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/18BBGjG41j734jlVLwVD1LYkeofB_Ztdv?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Presentations -->
+      <div id="presentations" class="sub-section">
+        <h2>Presentations</h2>
+        <p>Please find all presentations related this project below.</p>
+        <div class="row mt-sm-5 downloads-container">
+          <!-- Project Proposal -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project
+                  Proposal</h5>
+                <p class="card-text pt-sm-2">Submitted on 2024/12/08</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1AKyn7Jdiohq_LC25dMO8Am2AlCXma6u0?usp=sharing "
+                    target="_blank">Download</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Progress Presentation I -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress
+                  Presentation I</h5>
+                <p class="card-text pt-sm-2">Submitted on 2024/12/08</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1wYZNjfkXxZMtRjQ_8uD2pa5_k0YaNhaP?usp=sharing "
+                    target="_blank">Download</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Progress Presentation II -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress
+                  Presentation II</h5>
+                <p class="card-text pt-sm-2">Submitted on 2025/04/11</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1F7KMsGtmSjKKpVLPT77V5NVfGMBXwJjJ?usp=sharing "
+                    target="_blank">Download</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Final Presentation -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final
+                  Presentation</h5>
+                <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1jEblzqLvhMZqgbPzfofUchloSz-ggvLq?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Us -->
+  <section id="about" class="main-sections " style="background-color:#FDFEFE">
+    <div class="container">
+      <h5 class="section-headings">About Us</h5>
+      <div class="sub-section about-us-container ">
+        <h2>Meet Our Team !</h2>
+        <div class="row  mt-sm-5 ">
+          <!-- Supervisor -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="./Images/dp/supervisor.png" class="about-us-image supervisor" alt="Mr. Kanishka Yapa"
+                height="20%" />
+              <div class="card-body">
+                <h5 class="card-title">Mr. Kanishka Yapa</h5>
+                </br>
+                <span class="badge badge-secondary">Supervisor</span>
+                <div class="text-group">
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Computer Systems Engineering</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text" style="cursor: pointer;" href="kanishka.y@sliit.lk"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Co Supervisor -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="./Images/dp/cosupervisor.png" class="about-us-image cosupervisor" alt="Ms. Mihiri Samaraweera"
+                height="20%" />
+              <div class="card-body">
+                <h5 class="card-title">Ms. Mihiri Samaraweera</h5>
+                </br>
+                <span class="badge badge-secondary">Co-Supervisor</span>
+                <div class="text-group">
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Information Technology</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/mihiri-samaraweera-29636417a/"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:mihiri.s@sliit.lk"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row  mt-sm-5" style="justify-content: center">
+          <!-- maleesha -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="./Images/dp/Maleesha.JPG" class="about-us-image " alt="Rathnayaka R.M.M.D" height="20%" />
+              <div class="card-body">
+                <h5 class="card-title">Rathnayaka R.M.M.D.</h5>
+                </br>
+                <span class="badge badge-secondary">Group Leader</span>
+                <div class="text-group">
+                  <p><strong>Undergraduate</strong></p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Cyber Security</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/maleesha-dilshan-rathnayaka-95b634177/"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:it21152078@my.sliit.lk"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Sandun -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="./Images/dp/Sandun.jpg" class="about-us-image" alt="Gaurawa S" height="20%" />
+              <div class="card-body">
+                <h5 class="card-title">Gaurawa S</h5>
+                </br>
+                <span class="badge badge-secondary">Group Member</span>
+                <div class="text-group">
+                  <p><strong>Undergraduate</strong></p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Cyber Security</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/sandun-gaurawa-15a674215/"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:it21243912@my.sliit.lk
+                                            "><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Lasini -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="./Images/dp/Lasini.jpg" class="about-us-image" alt="Vidyani H.A.L" height="20%" />
+              <div class="card-body">
+                <h5 class="card-title">Vidyani H.A.L</h5>
+                </br>
+                <span class="badge badge-secondary">Group Member</span>
+                <div class="text-group">
+                  <p><strong>Undergraduate</strong></p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Cyber Security</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/lasini-vidyani-222033218"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:it21184130@my.sliit.lk"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Dulki -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="./Images/dp/dulki.png" class="about-us-image" alt="Fernando S.D.K." height="20%" />
+              <div class="card-body">
+                <h5 class="card-title">Fernando S.D.K.</h5>
+                </br>
+                <span class="badge badge-secondary">Group Member</span>
+                <div class="text-group">
+                  <p><strong>Undergraduate</strong></p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Cyber Security</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/dulki-fernando-738786218"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:it21188572@my.sliit.lk"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Banner -->
+  <section id="banner" class="main-sections">
+    <div class="promo-banner">
+      <div class="container">
+        <div class="section-center">
+          <div class="section-figure">
+            <div class="promo-logo-container">
+              <span class="promo-logo-text">Smart<span class="promo-logo-highlight">X</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="promo-banner-title">Try Smart X Today!</h2>
+      <p class="promo-banner-text">Smart X's fraud detection system is now available for banking institutions. Contact
+        us to learn more about implementing our solution.</p>
+
+      <div class="section-center">
+        <div class="section-figure">
+          <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="main-sections">
+    <div class="container">
+      <h1 class="contact-title text-center">Contact Us</h1>
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-send">
+              Send Message
+              <i class="fas fa-paper-plane ml-2"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info-container">
+          <h2>Contact Information</h2>
+          <p class="contact-subtitle">We'd love to hear from you. Reach out to us for any questions or feedback.</p>
+
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Email Us</h3>
+              <p><a href="mailto:transaction980@gmail.com">transaction980@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Location</h3>
+              <p>Sri Lanka Institute of Information Technology, Sri Lanka</p>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Scripts -->
+  <script src="./lib/jquery/jquery-3.5.1.slim.min.js"></script>
+  <script src="./lib/fontawesome/js/all.min.js"></script>
+  <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
